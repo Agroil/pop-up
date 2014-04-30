@@ -1,0 +1,112 @@
+.popup_wrapper{
+	background: #fff;
+	margin: 0 auto;
+	padding : 30px;
+	border-radius: 15px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.popup_content{
+	background: url("img/bg.png");
+	margin: 0 auto;
+	overflow: auto;
+	text-align: justify;
+}
+
+.closet_popup{
+	background: url("img/delete.gif") #fff;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.popup_overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	background: \#000; 
+	filter: alpha(opacity = 70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	display: inline-block;
+}
+
+.popup_overlay:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+    z-index: 999;
+}
+
+/*  New popup styles
+
+	.popup_wrapper{
+		background: #fff;
+		margin: 0 auto;
+		padding : 30px;
+		border-radius: 15px;
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+		z-index: 9998;
+	}
+
+	.mm_wrap_overlay{
+		background:rgba(0, 0, 0, 0.7);
+		background: #000\9;
+		filter: alpha(opacity=70);
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 9997;
+	}
+	
+	.popup_content{
+		background: url("");
+		margin: 0 auto;
+		overflow: auto;
+		text-align: justify;
+	}
+
+	.closet_popup{
+		background: url("img/delete.gif") #fff;
+		width: 16px;
+		height: 16px;
+		cursor: pointer;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+	.popup_overlay{
+		position: fixed;
+		text-align: center;
+		left: 0;
+		top: 0;
+		width: 100%; 
+		height: 100%;
+		display: inline-block;
+		z-index: 9996;
+	}
+
+	.popup_overlay:after {
+	    content: "";
+	    display: inline-block;
+	    height: 100%;
+	    vertical-align: middle;
+	    width: 0;
+	    z-index: 9999;
+	}
+
+*/

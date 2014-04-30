@@ -1,0 +1,17 @@
+/**
+ * В этом файле описаны все стили (которые используются на всех страницах компаний) для не брендированных компаний.
+ */
+
+
+/* шапка компании */
+.company_header{font-family:Verdana, sans-serif;margin-bottom:10px;margin-top:-8px;}
+.company_header .company_icon{float:left;margin-right:11px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.company_header .company_icon img{width:48px;height:48px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.company_header .name{float:left;margin-right:26px;}
+.company_header .name a{color:#343434;font-size:36px;text-decoration: none;}
+.company_header .rating{float:left;color:#C6C;font-size:36px;position:relative;}
+.company_header .rating .label{color:#CCC;font-size:12px;position:absolute;top:-10px;left:0;right:0;text-align:center;}
+.company_header .worker{margin-top:16px;cursor:pointer;float:left;display:block;width:30px;background: url('/i/company-work.gif') no-repeat;height:20px;}
+.company_header .worker.leave{background: url('/i/company-work.gif') no-repeat left -20px;}
+.company_header .fan{margin-left:27px;margin-top:16px;cursor:pointer;float:left;display:block;width:30px;background: url('/i/company-fav.gif') no-repeat;height:19px;}
+.company_header .fan.unfan{background: url('/i/company-fav.gif') no-repeat left -19px;}
